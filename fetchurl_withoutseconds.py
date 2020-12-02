@@ -40,8 +40,8 @@ for x in range(0, 59, 1):
 
     try:
         urllib.request.urlopen(url).read()
-        x=59
         print(url)
+        break
     except HTTPError as err:
         if err.code != 403:   
             raise      

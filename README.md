@@ -12,3 +12,5 @@ Once you have all requirements installed, run the script and enter the info it n
 * streamer name: the exact streamer's name
 * vod ID: The broadcast id can be found in the last part of the URL on twitchtracker. For example https://twitchtracker.com/berry0314/streams/40382317630, the broadcast id is 40382317630.
 * start timestamp: formatted like this (YYYY-MM-DD HH:MM) in UTC time. You can Also find this information on twitchtracker.
+
+Note that VODs are only available up to 60 days after the stream.
